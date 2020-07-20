@@ -1,6 +1,7 @@
 # Personal Website
 
-My personal website [https://timo.engineer](https://timo.engineer) written in Svelte.
+My future personal website [https://akainth.me](https://akainth.me), written in Svelte.
+This website is **heavily** inspired by Timo Zimmermann's [own personal website](https://timo.engineer)
 
 ## Usage
 
