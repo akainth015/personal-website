@@ -27,16 +27,14 @@
                 <p>{labels.stack.backendText}</p>
 
                 <div class="banner">
-                    <img src="/assets/logos/go-grey.png" alt="go"/>
                     <img src="/assets/logos/nodejs-grey.png" alt="nodejs"/>
                     <img src="/assets/logos/mongodb-grey.png" alt="mongodb"/>
-                    <img src="/assets/logos/graphql-grey.png" alt="graphql"/>
                 </div>
             </article>
 
             <div class="bubbles" transition:fly="{t1}">
                 <div class="go">
-                    <img src="/assets/logos/go.jpg" alt="go"/>
+                    <img src="/assets/logos/kotlin.png" alt="Kotlin"/>
                 </div>
 
                 <div class="nodejs">
@@ -48,7 +46,7 @@
                 </div>
 
                 <div class="graphql">
-                    <img src="/assets/logos/graphql.png" alt="graphql"/>
+                    <img src="/assets/logos/python.png" alt="Python"/>
                 </div>
             </div>
         {/if}

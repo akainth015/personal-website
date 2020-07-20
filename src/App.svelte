@@ -4,13 +4,8 @@
     import Footer from "components/layout/footer/footer.svelte";
 
     import Header from "components/sections/header/header.svelte"
-    import Blabber from "components/sections/blabber/blabber.svelte";
-    import Mosaic from "components/sections/mosaic/mosaic.svelte";
-    import Jacando from "components/sections/jacando/jacando.svelte";
-    import LogOwl from "components/sections/logowl/logowl.svelte";
     import Frontend from "components/sections/frontend/frontend.svelte"
     import Backend from "components/sections/backend/backend.svelte";
-    import References from "components/sections/references/references.svelte"
     import Banner from "components/sections/banner/banner.svelte";
 
     import { labels } from "content";
@@ -28,22 +23,14 @@
     <!--Work-->
     <span bind:this={workAnchor}></span>
     <Title title="{labels.titles.work}" subtitle="{labels.titles.workSubtitle}"/>
-    <Blabber/>
-    <Mosaic/>
-    <Jacando/>
-    <LogOwl />
 
     <!--Stack-->
     <span bind:this={aboutAnchor}></span>
-    <Title title="{labels.titles.stack}" subtitle="{labels.titles.stackSubtitle}"/>
+    <Title title="{labels.titles.stack}" />
     <Frontend/>
     <Backend/>
-
-    <!--Testimonials-->
-    <Title title="{labels.titles.testimonials}" subtitle="{labels.titles.testimonialsSubtitle}"/>
-    <References/>
 
     <Banner />
 </main>
 
-<Footer workAnchor="{workAnchor}" aboutAnchor="{aboutAnchor}"/>
+<Footer />

@@ -17,7 +17,7 @@
     <ContentWrapper disableFlex>
         <div class="intro" style="transform: translate(0,{-yOffset * 2 / 4}px);">
             <h1>{labels.header.greeting}<br/>{labels.header.title}</h1>
-            <p>{labels.header.intro}</p>
+            <p>{@html labels.header.intro}</p>
 
             <div>
                 <SocialButtons/>

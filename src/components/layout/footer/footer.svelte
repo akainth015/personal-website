@@ -14,14 +14,14 @@
 <footer class="top-clip">
     <ContentWrapper>
         <article>
-            <span><b>timo</b> | engineer</span>
+            <span>{labels.contact.name}</span>
         </article>
 
         <article>
             <b>{labels.footer.legalNotice}</b>
             <ul>
                 <li>{labels.footer.copyright}</li>
-                <li>{labels.footer.name}</li>
+                <li>{labels.contact.name}</li>
             </ul>
         </article>
 
@@ -29,10 +29,10 @@
             <b>{labels.footer.contact}</b>
             <ul>
                 <li>
-                    <a href="mailto:hello@timo.engineer" target="_top">{labels.footer.email}</a>
+                    <a href="mailto:aanand@akainth.me" target="_top">{labels.footer.email}</a>
                 </li>
                 <li>
-                    <a href="https://t.me/zimmermanntimo" target="_blank" rel="noreferrer">{labels.footer.telegram}</a>
+                    <a href="tel:{labels.contact.phoneNumber}">{labels.contact.phoneNumber}</a>
                 </li>
             </ul>
         </article>

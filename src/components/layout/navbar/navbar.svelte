@@ -1,5 +1,4 @@
 <script>
-    import scrollHandler from "helpers/scrollHandler";
     import { labels } from "content";
 
     export let workAnchor;
@@ -25,13 +24,10 @@
     @import "navbar";
 </style>
 
-<nav style="transform: translateY({translate});">
+<header style="transform: translateY({translate});">
     <div class="wrapper">
-        <span><b>timo</b> | engineer</span>
+        <img src="/assets/icons/logo192.png" alt="">
+        <p>Aanand Kainth</p>
 
-        <ul>
-            <li on:click={() => scrollHandler(workAnchor)}>{labels.nav.work}</li>
-            <li on:click={() => scrollHandler(aboutAnchor)}>{labels.nav.about}</li>
-        </ul>
     </div>
-</nav>
+</header>

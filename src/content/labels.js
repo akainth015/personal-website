@@ -1,60 +1,42 @@
 export default {
+    contact: {
+        name: "Aanand Kainth",
+        phoneNumber: "4084802845"
+    },
     nav: {
-        work: "Work",
-        about: "Stack"
+        work: "Projects",
+        about: "Experience"
     },
     header: {
-        greeting: "Hi!",
-        title: "It's me, Timo.",
-        intro: "I build applications that scale. In several years of professional work as Software Engineer and Engineering Manager I successfully designed, launched and maintained a variety of web and mobile applications. With a vast skill set I am able to find and leverage the most suitable technology for every problem. As Full-Stack Engineer, I develop robust backends with modern technologies such as GraphQL as well as creative and user-friendly frontends that deliver the best possible user experience across different browsers and flexible hybrid mobile applications. When developing software, with an AGILE approach, I put my focus on cost efficiency, scalability and maintainability."
+        greeting: "Hello!",
+        title: "My name is Aanand.",
+        intro: `I write code for <em>people</em>. 
+        In many years of work as a software engineer I have designed many systems that
+        helps students connect, learn, and succeed.
+        I create and work with the entire stack for applications; from complex back-end systems
+        to beautiful apps made to be used <strong>as little as possible</strong>.`
     },
     titles: {
-        work: "Work",
-        workSubtitle: "A Selection of Projects I contributed to",
-        stack: "Stack",
-        stackSubtitle: "Weapons of Choice",
+        work: "Projects",
+        workSubtitle: "Projects I've worked on over the years",
+        stack: "My Weapons of Choice",
         testimonials: "Testimonials",
         testimonialsSubtitle: "What others say about me"
     },
-    blabber: {
-        name: "BLABBER",
-        caption: "BLABBER is a self governing, hyper local social network on the blockchain with users from around the world.",
-        whitepaper: "Download Whitepaper"
-    },
-    mosaic: {
-        name: "Mosaic",
-        mockup: "Transactions",
-        caption: "Mosaic is Monaco's largest privately owned digital agency with a focus on web and mobile development."
-    },
-    jacando: {
-        name: "JACANDO",
-        caption: "An interconnected integration Platform as a Service that allows users to manage their data across platforms.",
-        title: "Dynamic Interconnectivity",
-        subtitle: "As Engineering Manager at jacando I am responsible for the seamless integration of third party systems to jacando's core product.",
-        jacandoX: "jacando X",
-        chart: "Performance",
-        latest: "Latest"
-    },
-    logowl: {
-        name: "Log Owl",
-        caption: "With Log Owl production is no longer a black box. Monitor and analyze your web app.",
-        website: "Website",
-        docs: "Documentation"
-    },
     stack: {
-        frontendTitle: "UI's that excite",
-        frontendText: "The past decade has seen my frontend development stack evolve from utilising basic HTML, CSS and sprinkles of Javascript to leveraging modern workflows. These are deep rooted with component based frameworks that align with build tools and transpilers such as Webpack, Rollup and Babel. This results in robust Single Page Apps as well as Progressive Web Apps. Throughout my career I've also designed and launched several mobile applications with hybrid solutions like React Native. I am familiar with all major frontend architectures from client side routing over server side rendering to the JAMstack.",
-        backendTitle: "Architectures that scale",
-        backendText: "Choosing the most efficient technology mix for a project is an art that is difficult to master. Finding the right tools does not only require a clear vision and good understanding of the scope of the project but also a deep understanding of the impact different technologies can have. Working on a variety of projects in different sectors with several technologies and programming languages taught me their implications business and technology wise. My know-how paired with my analytical and forward-thinkin approach enable me to develop backend architectures that are maintainbale and easy to scale."
+        frontendTitle: "Websites",
+        frontendText: "Over the past 8 years I've gone from vanilla web pages with HTML, CSS, and JavaScript to dynamic user-centric designs built with front-end frameworks like React and Vue, and complex build tools like Webpack, Babel, and Zola. Whenever appropriate, I aim to design user interfaces that are meant to minimize the amount of time the user spends using them.",
+        backendTitle: "Insides as tidy as the outsides",
+        backendText: "It's always difficult to choose the tooling that will provide maintainability and scalability for the entire lifetime of your app. My experiences have helped me gain a comprehensive understanding of how various systems scale, and in which scenarios they excel. I frequently deal with Node.js, Java, and Python backends for web apps, and am familiar with how to deploy them in a scalable fashion."
     },
     banner: {
-        title: "Ping me!",
-        subtitle: "I'm always available for exciting discussions and projects. Get in touch."
+        title: "Reach out!",
+        subtitle: "I'm always interested in open jobs, project ideas, and talking!"
     },
     footer: {
         legalNotice: "Legal Notice",
         copyright: "Copyright © 2020",
-        name: "Timo Zimmermann",
+        name: "Aanand Kainth",
         contact: "Contact",
         email: "Email",
         telegram: "Telegram",

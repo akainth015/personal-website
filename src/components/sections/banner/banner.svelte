@@ -13,7 +13,7 @@
     <ContentWrapper smallerBottomMargin>
         <div class="banner">
             <div class="image">
-                <img src="/assets/people/tz.png" alt="tz"/>
+                <img src="/assets/people/profile.jpg" alt="Aanand Kainth"/>
             </div>
 
             <article>
